@@ -18,14 +18,14 @@ public:
 		switch (algo)
 		{
 		case SortingAlgorithm::BUBBLE:
-			bubble_sort(arr,0,5);
+			bubble_sort(arr,0,arr.size()-1);
 			break;
 		case SortingAlgorithm::INSERTION:
-			insertion_sort(arr,0,5);
+			insertion_sort(arr,0,arr.size() - 1);
 			break;
 		case SortingAlgorithm::QUICK:
-				quick_Sort(arr, 0, arr.size() - 1);
-				break;
+			quick_Sort(arr, 0, arr.size() - 1);
+			break;
 		case SortingAlgorithm::SELECTION:
 			Selection_sort(arr, 0, arr.size() - 1);
 			break;
