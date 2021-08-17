@@ -30,9 +30,9 @@ int main()
 	std::cout << "Unsorted vector: ";
 	print(myvector);
 
-	/*std::cout << "\nQuick Sort:\t";
-	ob.sort(myvector, QUICK);
-	print(myvector);*/
+	std::cout << "\nQuick Sort:\t";
+	ob.sort(myvector, SortingAlgorithm::QUICK);
+	print(myvector);
 
 	std::cout << "Bubble Sort:\t";
 	ob.sort(myvector, SortingAlgorithm::BUBBLE);
